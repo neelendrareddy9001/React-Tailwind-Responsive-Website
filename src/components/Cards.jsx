@@ -9,6 +9,13 @@ const Cards = () => {
         <div className='max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8'>
             <div className='w-fulll'>
                 <img className='w-28 mx-auto mt-[-3rem] bg-white' src={Single} alt='/'/>
+                <h2 className='text-2xl font-bold text-center py-8' >Single User</h2>
+                <p>$149</p>
+                <div>
+                    <p>500 GB Storage</p>
+                    <p>a Granted User</p>
+                    <p>Sed up to 2 GB</p>
+                </div>
             </div>
         </div>
     </div>
