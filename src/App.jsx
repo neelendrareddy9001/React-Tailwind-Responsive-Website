@@ -19,12 +19,7 @@ function App () {
         <Route path='/cards' exact element={<Cards/>}/>
         <Route path='/footer' exact element={<Footer/>}/>
       </Routes>
-      {/* <Navbar/>
-      <Hero/>
-      <Analytics/>
-      <Newsletter />
-      <Cards/>
-      <Footer/> */}
+      
     </div>
   )
 }
