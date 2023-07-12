@@ -15,7 +15,7 @@ import {Routes, Route, useLocation} from 'react-router-dom';
 const AnimateRoutes = () => {
   const location = useLocation();
   return (
-    <AnimatePresence>
+    
     <Routes key={location.pathname} location={location}>
       <Route path='/' element={<Hero/>}/>
       <Route path='/analytics' element={<Analytics/>}/>
@@ -23,7 +23,7 @@ const AnimateRoutes = () => {
       <Route path='/cards' element={<Cards/>}/>
       <Route path='/footer' element={<Footer/>} />
     </Routes>
-    </AnimatePresence>
+   
   )
 }
 
